@@ -1,0 +1,13 @@
+export const NEWCARENTPAGE = 'NewCarentPage';
+export const SWITCHLOADING = 'SwitchLoading';
+export const COUNTTAG = 'CountTag';
+export const TAG = 'Tag';
+export const SIGNIN = 'SignIn';
+export const SIGNUP = 'SignUp';
+export const CREATEARTICLE = 'createArticle';
+export const DELETEARTICLE = 'DeleteArticle';
+export const AUTHENTICATIONLOADING = 'AuthenticationLoading';
+export const NEWARTICLELOADING = 'NewArticleLoading';
+export const AUTHENTICATION = 'Authentication';
+export const NEWACCOUNT = 'NewAccount';
+export const SUCCESSFULREQUEST = 'successfulRequest';

@@ -1,0 +1,83 @@
+.btnStyle {
+  font-size: 18px;
+  line-height: 28px;
+  padding: 6px 19px 10px 19px;
+  color: rgba(0, 0, 0, 0.85) !important;
+  &:hover {
+    border: 1px solid #52c41a;
+    color: #52c41a !important;
+    border-radius: 5px;
+  }
+}
+.noImg {
+  background-color: burlywood;
+}
+
+.header {
+  background: #ffffff;
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 9px 22px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  &__label {
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+  }
+
+  &__btnSignIn {
+  }
+
+  &__btnSignUp {
+  }
+  &__btnCreateArticle {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 6px 10px;
+    margin-right: 26px;
+  }
+  &__avatar {
+    display: flex;
+    align-items: center;
+  }
+  &__name {
+    font-size: 18px;
+    line-height: 28px;
+    margin-right: 13px;
+    color: black !important;
+  }
+  &__img {
+    width: 46px;
+    height: 46px;
+    margin-right: 27px;
+    border-radius: 50%;
+
+    img {
+      border-radius: 50%;
+    }
+  }
+  &__btnLogOut {
+    margin-left: 19px;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 6px 10px 10px 19px;
+    color: rgba(0, 0, 0, 0.85) !important;
+    &:hover {
+      border: 1px solid black;
+      border-radius: 5px;
+    }
+  }
+  &__btnSelected {
+    border: 1px solid #52c41a;
+    color: #52c41a !important;
+    border-radius: 5px;
+  }
+}
